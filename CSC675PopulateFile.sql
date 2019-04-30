@@ -1,7 +1,19 @@
 insert into Customer(memberID, fname, lname, age, gender, memberSince)
-	values(1,'Carl','Johnson',20,'Male','1/1/1990');
-    #A customer has an ID of 1, his first name is Carl and last name is Johnson, he is 20 years of age, a male and a member since memberSince
+	values(1,'Carl','Johnson',50,'Male','1/1/1990');
+    #A customer has an ID of 1, his first name is Carl and last name is Johnson, he is 50 years of age, a male and a member since memberSince
 
+insert into Customer(memberID, fname, lname, age, gender, memberSince)
+	values(2,'Betty','Davis',43,'Female','7/16/1996');
+	
+insert into Customer(memberID, fname, lname, age, gender, memberSince)
+	values(3,'Joe','Lopez',31,'Male','12/25/2004');
+	
+insert into Customer(memberID, fname, lname, age, gender, memberSince)
+	values(4,'Alice','Wong',75,'Female','3/3/2013');
+	
+insert into Customer(memberID, fname, lname, age, gender, memberSince)
+	values(5,'Charlie','Brown',18,'Male','4/30/2018');
+	
 insert into Brand(brandID, brandName, address, dateBusiness)
 	values(1, 'Lays', '123 Seasame Street', '1/1/1990');
     #A Brand has an ID of 1, its name is 'Lays' and is located at address, we started doing business with them at date Business
