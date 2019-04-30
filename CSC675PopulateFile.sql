@@ -67,7 +67,7 @@ insert into ProductMadeBy(productID, brandID, pname, inStock, cost, category, da
 	values(8,4,'Dole Apples', true, 42, 'Fruit', '9/17/2001');
 
 insert into ProductMadeBy(productID, brandID, pname, inStock, cost, category, dateMade)
-	values(10,5,'Fruit Loops', true, 35, 'Cereal', '1/1/1990');    
+	values(9,5,'Fruit Loops', true, 35, 'Cereal', '1/1/1990');    
 
 insert into ProductMadeBy(productID, brandID, pname, inStock, cost, category, dateMade)
 	values(10,5,'Corn Flakes', true, 50, 'Cereal', '1/1/1990');    
