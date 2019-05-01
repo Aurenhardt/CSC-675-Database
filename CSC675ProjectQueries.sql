@@ -10,3 +10,12 @@ from Brand b
 where  b.brandID in (select p.brandID
 				 from ProductMadeBy p
                  where b.brandID = p.brandID and p.pname = 'Lays Potato Chips')
+
+
+
+
+select s.storeName, max(s.productID) as MaxProduct
+from StoreSell s
+where s.productID >=1
+group by s.storeName;
+#For each store find the name of teh store with the maximun sale of a product. 

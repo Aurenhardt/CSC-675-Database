@@ -33,7 +33,7 @@ ON DELETE NO ACTION
 
 
 create table Buys(
-memberID integer, 
+memberID integer,
 productID integer,
 dateBought char(10),
 amount real,
@@ -53,6 +53,3 @@ foreign key(productID) references ProductMadeBy(productID)
 ON DELETE NO ACTION
 #removed sells(timeLimit, date, Stock)
 );
-
-
-
