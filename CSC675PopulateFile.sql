@@ -89,31 +89,31 @@ insert into ProductMadeBy(productID, brandID, pname, inStock, cost, category, da
 
 #StoreSells Insert
 insert into StoreSells(storeID, productID, address, storeName)
-	values(1, 11, '120 Market Street', 'Wallgreens');
+	values(1, 4, '120 Market Street', 'Wallgreens');
 
 insert into StoreSells(storeID, productID, address, storeName)
-	values(2, 12, '2300 9th Avenue', 'Trader Joe');
+	values(2, 5, '2300 9th Avenue', 'Trader Joe');
 
 insert into StoreSells(storeID, productID, address, storeName)
-	values(3, 13, '8974 Van ness Avenue', 'Safeway');
+	values(3, 2, '8974 Van ness Avenue', 'Safeway');
 
 insert into StoreSells(storeID, productID, address, storeName)
-	values(4, 14, '3333 Geary Street', 'Costco');
+	values(4, 7, '3333 Geary Street', 'Costco');
 
 insert into StoreSells(storeID, productID, address, storeName)
-	values(5, 15, '1 Hacker Way', 'BestBuy');
+	values(5, 3, '1 Hacker Way', 'BestBuy');
 
 insert into StoreSells(storeID, productID, address, storeName)
-	values(6, 11, '5560 Ocean Avenue', 'Trader Joe');
+	values(6, 1, '5560 Ocean Avenue', 'Trader Joe');
 
 insert into StoreSells(storeID, productID, address, storeName)
-	values(7, 12, '260 Hollyway', 'Costco');
+	values(7, 10, '260 Hollyway', 'Costco');
 
 insert into StoreSells(storeID, productID, address, storeName)
-	values(8, 13, '666 19th Avenue', 'Safeway');
+	values(8, 9, '666 19th Avenue', 'Safeway');
 
 insert into StoreSells(storeID, productID, address, storeName)
-	values(9, 14, '674 Polk Street', 'Wallgreens');
+	values(9, 8, '674 Polk Street', 'Wallgreens');
 
 insert into StoreSells(storeID, productID, address, storeName)
-	values(10, 15, '8888 Rich Street', 'Whole Foods');
+	values(10, 6, '8888 Rich Street', 'Whole Foods');
