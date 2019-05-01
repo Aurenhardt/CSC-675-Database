@@ -71,3 +71,36 @@ insert into ProductMadeBy(productID, brandID, pname, inStock, cost, category, da
 
 insert into ProductMadeBy(productID, brandID, pname, inStock, cost, category, dateMade)
 	values(10,5,'Corn Flakes', true, 50, 'Cereal', '1/1/1990');    
+
+
+#StoreSells Insert
+insert into StoreSells(storeID, productID, address, storeName)
+	values(1, 11, '120 Market Street', 'Wallgreens');
+
+insert into StoreSells(storeID, productID, address, storeName)
+	values(2, 12, '2300 9th Avenue', 'Trader Joe');
+
+insert into StoreSells(storeID, productID, address, storeName)
+	values(3, 13, '8974 Van ness Avenue', 'Safeway');
+
+insert into StoreSells(storeID, productID, address, storeName)
+	values(4, 14, '3333 Geary Street', 'Costco');
+
+insert into StoreSells(storeID, productID, address, storeName)
+	values(5, 15, '1 Hacker Way', 'BestBuy');
+
+insert into StoreSells(storeID, productID, address, storeName)
+	values(6, 11, '5560 Ocean Avenue', 'Trader Joe');
+
+insert into StoreSells(storeID, productID, address, storeName)
+	values(7, 12, '260 Hollyway', 'Costco');
+
+insert into StoreSells(storeID, productID, address, storeName)
+	values(8, 13, '666 19th Avenue', 'Safeway');
+
+insert into StoreSells(storeID, productID, address, storeName)
+	values(9, 14, '674 Polk Street', 'Wallgreens');
+
+insert into StoreSells(storeID, productID, address, storeName)
+	values(10, 15, '8888 Rich Street', 'Whole Foods');
+
