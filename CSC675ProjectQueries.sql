@@ -19,3 +19,9 @@ from StoreSell s
 where s.productID >=1
 group by s.storeName;
 #For each store find the name of teh store with the maximun sale of a product. 
+
+select b.brandName, min(p.cost) as min_cost, max(p.cost) as max_cost
+from ProductMadeBy p, Brand b
+where p.brandID = b.brandId
+group by p.brandID;
+#For each brand find the minimum and maximum product cost
